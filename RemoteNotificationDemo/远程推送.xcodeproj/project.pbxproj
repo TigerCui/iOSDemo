@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619B61731CA265EF0008E4E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B61721CA265EF0008E4E1 /* main.m */; };
+		619B61761CA265EF0008E4E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B61751CA265EF0008E4E1 /* AppDelegate.m */; };
+		619B61791CA265EF0008E4E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B61781CA265EF0008E4E1 /* ViewController.m */; };
+		619B617C1CA265EF0008E4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619B617A1CA265EF0008E4E1 /* Main.storyboard */; };
+		619B617E1CA265EF0008E4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619B617D1CA265EF0008E4E1 /* Assets.xcassets */; };
+		619B61811CA265EF0008E4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619B617F1CA265EF0008E4E1 /* LaunchScreen.storyboard */; };
+		619B618C1CA265EF0008E4E1 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B618B1CA265EF0008E4E1 /* ____Tests.m */; };
+		619B61971CA265EF0008E4E1 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619B61961CA265EF0008E4E1 /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		619B61881CA265EF0008E4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619B61661CA265EE0008E4E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619B616D1CA265EE0008E4E1;
+			remoteInfo = "远程推送";
+		};
+		619B61931CA265EF0008E4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 619B61661CA265EE0008E4E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619B616D1CA265EE0008E4E1;
+			remoteInfo = "远程推送";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		619B616E1CA265EE0008E4E1 /* 远程推送.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "远程推送.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619B61721CA265EF0008E4E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		619B61741CA265EF0008E4E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		619B61751CA265EF0008E4E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		619B61771CA265EF0008E4E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		619B61781CA265EF0008E4E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		619B617B1CA265EF0008E4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		619B617D1CA265EF0008E4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619B61801CA265EF0008E4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		619B61821CA265EF0008E4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619B61871CA265EF0008E4E1 /* 远程推送Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "远程推送Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619B618B1CA265EF0008E4E1 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		619B618D1CA265EF0008E4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619B61921CA265EF0008E4E1 /* 远程推送UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "远程推送UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		619B61961CA265EF0008E4E1 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		619B61981CA265EF0008E4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619B616B1CA265EE0008E4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B61841CA265EF0008E4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B618F1CA265EF0008E4E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		619B61651CA265EE0008E4E1 = {
+			isa = PBXGroup;
+			children = (
+				619B61701CA265EF0008E4E1 /* 远程推送 */,
+				619B618A1CA265EF0008E4E1 /* 远程推送Tests */,
+				619B61951CA265EF0008E4E1 /* 远程推送UITests */,
+				619B616F1CA265EE0008E4E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		619B616F1CA265EE0008E4E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619B616E1CA265EE0008E4E1 /* 远程推送.app */,
+				619B61871CA265EF0008E4E1 /* 远程推送Tests.xctest */,
+				619B61921CA265EF0008E4E1 /* 远程推送UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		619B61701CA265EF0008E4E1 /* 远程推送 */ = {
+			isa = PBXGroup;
+			children = (
+				619B61741CA265EF0008E4E1 /* AppDelegate.h */,
+				619B61751CA265EF0008E4E1 /* AppDelegate.m */,
+				619B61771CA265EF0008E4E1 /* ViewController.h */,
+				619B61781CA265EF0008E4E1 /* ViewController.m */,
+				619B617A1CA265EF0008E4E1 /* Main.storyboard */,
+				619B617D1CA265EF0008E4E1 /* Assets.xcassets */,
+				619B617F1CA265EF0008E4E1 /* LaunchScreen.storyboard */,
+				619B61821CA265EF0008E4E1 /* Info.plist */,
+				619B61711CA265EF0008E4E1 /* Supporting Files */,
+			);
+			path = "远程推送";
+			sourceTree = "<group>";
+		};
+		619B61711CA265EF0008E4E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				619B61721CA265EF0008E4E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		619B618A1CA265EF0008E4E1 /* 远程推送Tests */ = {
+			isa = PBXGroup;
+			children = (
+				619B618B1CA265EF0008E4E1 /* ____Tests.m */,
+				619B618D1CA265EF0008E4E1 /* Info.plist */,
+			);
+			path = "远程推送Tests";
+			sourceTree = "<group>";
+		};
+		619B61951CA265EF0008E4E1 /* 远程推送UITests */ = {
+			isa = PBXGroup;
+			children = (
+				619B61961CA265EF0008E4E1 /* ____UITests.m */,
+				619B61981CA265EF0008E4E1 /* Info.plist */,
+			);
+			path = "远程推送UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619B616D1CA265EE0008E4E1 /* 远程推送 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619B619B1CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送" */;
+			buildPhases = (
+				619B616A1CA265EE0008E4E1 /* Sources */,
+				619B616B1CA265EE0008E4E1 /* Frameworks */,
+				619B616C1CA265EE0008E4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "远程推送";
+			productName = "远程推送";
+			productReference = 619B616E1CA265EE0008E4E1 /* 远程推送.app */;
+			productType = "com.apple.product-type.application";
+		};
+		619B61861CA265EF0008E4E1 /* 远程推送Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619B619E1CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送Tests" */;
+			buildPhases = (
+				619B61831CA265EF0008E4E1 /* Sources */,
+				619B61841CA265EF0008E4E1 /* Frameworks */,
+				619B61851CA265EF0008E4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				619B61891CA265EF0008E4E1 /* PBXTargetDependency */,
+			);
+			name = "远程推送Tests";
+			productName = "远程推送Tests";
+			productReference = 619B61871CA265EF0008E4E1 /* 远程推送Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		619B61911CA265EF0008E4E1 /* 远程推送UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619B61A11CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送UITests" */;
+			buildPhases = (
+				619B618E1CA265EF0008E4E1 /* Sources */,
+				619B618F1CA265EF0008E4E1 /* Frameworks */,
+				619B61901CA265EF0008E4E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				619B61941CA265EF0008E4E1 /* PBXTargetDependency */,
+			);
+			name = "远程推送UITests";
+			productName = "远程推送UITests";
+			productReference = 619B61921CA265EF0008E4E1 /* 远程推送UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		619B61661CA265EE0008E4E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cuizhengqing;
+				TargetAttributes = {
+					619B616D1CA265EE0008E4E1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EC83GQQQ62;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					619B61861CA265EF0008E4E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 619B616D1CA265EE0008E4E1;
+					};
+					619B61911CA265EF0008E4E1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 619B616D1CA265EE0008E4E1;
+					};
+				};
+			};
+			buildConfigurationList = 619B61691CA265EE0008E4E1 /* Build configuration list for PBXProject "远程推送" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 619B61651CA265EE0008E4E1;
+			productRefGroup = 619B616F1CA265EE0008E4E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619B616D1CA265EE0008E4E1 /* 远程推送 */,
+				619B61861CA265EF0008E4E1 /* 远程推送Tests */,
+				619B61911CA265EF0008E4E1 /* 远程推送UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		619B616C1CA265EE0008E4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B61811CA265EF0008E4E1 /* LaunchScreen.storyboard in Resources */,
+				619B617E1CA265EF0008E4E1 /* Assets.xcassets in Resources */,
+				619B617C1CA265EF0008E4E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B61851CA265EF0008E4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B61901CA265EF0008E4E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619B616A1CA265EE0008E4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B61791CA265EF0008E4E1 /* ViewController.m in Sources */,
+				619B61761CA265EF0008E4E1 /* AppDelegate.m in Sources */,
+				619B61731CA265EF0008E4E1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B61831CA265EF0008E4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B618C1CA265EF0008E4E1 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619B618E1CA265EF0008E4E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B61971CA265EF0008E4E1 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		619B61891CA265EF0008E4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 619B616D1CA265EE0008E4E1 /* 远程推送 */;
+			targetProxy = 619B61881CA265EF0008E4E1 /* PBXContainerItemProxy */;
+		};
+		619B61941CA265EF0008E4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 619B616D1CA265EE0008E4E1 /* 远程推送 */;
+			targetProxy = 619B61931CA265EF0008E4E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		619B617A1CA265EF0008E4E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619B617B1CA265EF0008E4E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		619B617F1CA265EF0008E4E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619B61801CA265EF0008E4E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		619B61991CA265EF0008E4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		619B619A1CA265EF0008E4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		619B619C1CA265EF0008E4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "远程推送/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clifford.YWX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		619B619D1CA265EF0008E4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "远程推送/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clifford.YWX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		619B619F1CA265EF0008E4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "远程推送Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuizhengqing.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/远程推送.app/远程推送";
+			};
+			name = Debug;
+		};
+		619B61A01CA265EF0008E4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "远程推送Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuizhengqing.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/远程推送.app/远程推送";
+			};
+			name = Release;
+		};
+		619B61A21CA265EF0008E4E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "远程推送UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuizhengqing.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "远程推送";
+			};
+			name = Debug;
+		};
+		619B61A31CA265EF0008E4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "远程推送UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cuizhengqing.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "远程推送";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		619B61691CA265EE0008E4E1 /* Build configuration list for PBXProject "远程推送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619B61991CA265EF0008E4E1 /* Debug */,
+				619B619A1CA265EF0008E4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619B619B1CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619B619C1CA265EF0008E4E1 /* Debug */,
+				619B619D1CA265EF0008E4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619B619E1CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619B619F1CA265EF0008E4E1 /* Debug */,
+				619B61A01CA265EF0008E4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619B61A11CA265EF0008E4E1 /* Build configuration list for PBXNativeTarget "远程推送UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619B61A21CA265EF0008E4E1 /* Debug */,
+				619B61A31CA265EF0008E4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 619B61661CA265EE0008E4E1 /* Project object */;
+}
