@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			
+			.btn {
+				width: 20%;
+				height: 44px;
+				border: 1px solid #4169E1;
+				border-radius: 3px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="button" name="btn" id="btn" value="点击回调" />
+		<script type="text/javascript">
+			document.getElementById('btn').addEventListener('click',function(){
+				window.webkit.messageHandlers.callback.postMessage({msg:'msg'});
+			});
+		</script>
+	</body>
+</html>
