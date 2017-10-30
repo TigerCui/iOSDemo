@@ -16,6 +16,10 @@
 		013ED5061F9A26180029036E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013ED5041F9A26180029036E /* LaunchScreen.storyboard */; };
 		013ED5111F9A26180029036E /* ShadowDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ED5101F9A26180029036E /* ShadowDemoTests.m */; };
 		013ED51C1F9A26180029036E /* ShadowDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013ED51B1F9A26180029036E /* ShadowDemoUITests.m */; };
+		01ACAD191F9C4FCD00E58E94 /* SimpleShadowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ACAD181F9C4FCD00E58E94 /* SimpleShadowVC.m */; };
+		01E12A711FA6C74800F84BEE /* ShadowColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A701FA6C74800F84BEE /* ShadowColorVC.m */; };
+		01E12A741FA6CAB000F84BEE /* ShadowOpacityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */; };
+		01E12A771FA6CBD700F84BEE /* ShadowOffsetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		013ED5171F9A26180029036E /* ShadowDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013ED51B1F9A26180029036E /* ShadowDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowDemoUITests.m; sourceTree = "<group>"; };
 		013ED51D1F9A26180029036E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01ACAD171F9C4FCD00E58E94 /* SimpleShadowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleShadowVC.h; sourceTree = "<group>"; };
+		01ACAD181F9C4FCD00E58E94 /* SimpleShadowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleShadowVC.m; sourceTree = "<group>"; };
+		01E12A6F1FA6C74800F84BEE /* ShadowColorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowColorVC.h; sourceTree = "<group>"; };
+		01E12A701FA6C74800F84BEE /* ShadowColorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowColorVC.m; sourceTree = "<group>"; };
+		01E12A721FA6CAB000F84BEE /* ShadowOpacityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowOpacityVC.h; sourceTree = "<group>"; };
+		01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowOpacityVC.m; sourceTree = "<group>"; };
+		01E12A751FA6CBD600F84BEE /* ShadowOffsetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowOffsetVC.h; sourceTree = "<group>"; };
+		01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowOffsetVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,14 @@
 				013ED4F71F9A26180029036E /* AppDelegate.m */,
 				013ED4F91F9A26180029036E /* ViewController.h */,
 				013ED4FA1F9A26180029036E /* ViewController.m */,
+				01ACAD171F9C4FCD00E58E94 /* SimpleShadowVC.h */,
+				01ACAD181F9C4FCD00E58E94 /* SimpleShadowVC.m */,
+				01E12A6F1FA6C74800F84BEE /* ShadowColorVC.h */,
+				01E12A701FA6C74800F84BEE /* ShadowColorVC.m */,
+				01E12A721FA6CAB000F84BEE /* ShadowOpacityVC.h */,
+				01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */,
+				01E12A751FA6CBD600F84BEE /* ShadowOffsetVC.h */,
+				01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */,
 				013ED4FC1F9A26180029036E /* Main.storyboard */,
 				013ED5021F9A26180029036E /* Assets.xcassets */,
 				013ED5041F9A26180029036E /* LaunchScreen.storyboard */,
@@ -278,7 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				013ED4FB1F9A26180029036E /* ViewController.m in Sources */,
+				01E12A771FA6CBD700F84BEE /* ShadowOffsetVC.m in Sources */,
 				013ED4F81F9A26180029036E /* AppDelegate.m in Sources */,
+				01E12A741FA6CAB000F84BEE /* ShadowOpacityVC.m in Sources */,
+				01E12A711FA6C74800F84BEE /* ShadowColorVC.m in Sources */,
+				01ACAD191F9C4FCD00E58E94 /* SimpleShadowVC.m in Sources */,
 				013ED5011F9A26180029036E /* ShadowDemo.xcdatamodeld in Sources */,
 				013ED4F51F9A26180029036E /* main.m in Sources */,
 			);
@@ -514,6 +538,7 @@
 				013ED5221F9A26180029036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013ED5231F9A26180029036E /* Build configuration list for PBXNativeTarget "ShadowDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				013ED5251F9A26180029036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		013ED5261F9A26180029036E /* Build configuration list for PBXNativeTarget "ShadowDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				013ED5281F9A26180029036E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
