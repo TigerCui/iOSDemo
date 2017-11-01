@@ -11,6 +11,8 @@
 #import "ShadowColorVC.h"
 #import "ShadowOpacityVC.h"
 #import "ShadowOffsetVC.h"
+#import "ShadowRadiusVC.h"
+#import "ShadowPathVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,10 +24,10 @@
 
 static float kScreenWidth;
 static float kScreenHeight;
-static float kStatusBarHeight;
-static float kNaviBarHeight;
-static float kItemWidth;
-static float kItemHeight;
+//static float kStatusBarHeight;
+//static float kNaviBarHeight;
+//static float kItemWidth;
+//static float kItemHeight;
 
 static NSString * const kCellId = @"cellId";
 
@@ -34,10 +36,10 @@ static NSString * const kCellId = @"cellId";
     [super viewDidLoad];
     kScreenWidth = [UIScreen mainScreen].bounds.size.width;
     kScreenHeight = [UIScreen mainScreen].bounds.size.height;
-    kStatusBarHeight = 20.0;
-    kNaviBarHeight = 20.0;
-    kItemWidth = kScreenWidth - 40.0;
-    kItemHeight = 88.0;
+//    kStatusBarHeight = 20.0;
+//    kNaviBarHeight = 20.0;
+//    kItemWidth = kScreenWidth - 40.0;
+//    kItemHeight = 88.0;
     [self p_setupSubViews];
 }
 
@@ -146,7 +148,12 @@ static NSString * const kCellId = @"cellId";
             break;
         case 4:
         {
-            
+            vc = [[ShadowRadiusVC alloc] init];
+        }
+            break;
+        case 5:
+        {
+            vc = [[ShadowPathVC alloc] init];
         }
             break;
     }

@@ -20,6 +20,8 @@
 		01E12A711FA6C74800F84BEE /* ShadowColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A701FA6C74800F84BEE /* ShadowColorVC.m */; };
 		01E12A741FA6CAB000F84BEE /* ShadowOpacityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */; };
 		01E12A771FA6CBD700F84BEE /* ShadowOffsetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */; };
+		01FD12891FA9F25500F454AE /* ShadowRadiusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD12881FA9F25500F454AE /* ShadowRadiusVC.m */; };
+		01FD128C1FA9F38200F454AE /* ShadowPathVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD128B1FA9F38200F454AE /* ShadowPathVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowOpacityVC.m; sourceTree = "<group>"; };
 		01E12A751FA6CBD600F84BEE /* ShadowOffsetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowOffsetVC.h; sourceTree = "<group>"; };
 		01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowOffsetVC.m; sourceTree = "<group>"; };
+		01FD12871FA9F25500F454AE /* ShadowRadiusVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowRadiusVC.h; sourceTree = "<group>"; };
+		01FD12881FA9F25500F454AE /* ShadowRadiusVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowRadiusVC.m; sourceTree = "<group>"; };
+		01FD128A1FA9F38200F454AE /* ShadowPathVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowPathVC.h; sourceTree = "<group>"; };
+		01FD128B1FA9F38200F454AE /* ShadowPathVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowPathVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,10 @@
 				01E12A731FA6CAB000F84BEE /* ShadowOpacityVC.m */,
 				01E12A751FA6CBD600F84BEE /* ShadowOffsetVC.h */,
 				01E12A761FA6CBD700F84BEE /* ShadowOffsetVC.m */,
+				01FD12871FA9F25500F454AE /* ShadowRadiusVC.h */,
+				01FD12881FA9F25500F454AE /* ShadowRadiusVC.m */,
+				01FD128A1FA9F38200F454AE /* ShadowPathVC.h */,
+				01FD128B1FA9F38200F454AE /* ShadowPathVC.m */,
 				013ED4FC1F9A26180029036E /* Main.storyboard */,
 				013ED5021F9A26180029036E /* Assets.xcassets */,
 				013ED5041F9A26180029036E /* LaunchScreen.storyboard */,
@@ -304,6 +314,8 @@
 				01E12A711FA6C74800F84BEE /* ShadowColorVC.m in Sources */,
 				01ACAD191F9C4FCD00E58E94 /* SimpleShadowVC.m in Sources */,
 				013ED5011F9A26180029036E /* ShadowDemo.xcdatamodeld in Sources */,
+				01FD128C1FA9F38200F454AE /* ShadowPathVC.m in Sources */,
+				01FD12891FA9F25500F454AE /* ShadowRadiusVC.m in Sources */,
 				013ED4F51F9A26180029036E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
