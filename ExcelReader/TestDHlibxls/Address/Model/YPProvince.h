@@ -11,7 +11,11 @@
 
 @interface YPProvince : NSObject
 
+#if MATCH
+@property (nonatomic, assign) NSInteger ID;//邮政编码
+#else
 @property (nonatomic, strong) NSString *ID;//邮政编码
+#endif
 @property (nonatomic, strong) NSString *n;//名称
 @property (nonatomic, copy) NSArray<YPCity *> *c;//城市
 

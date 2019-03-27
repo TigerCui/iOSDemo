@@ -74,7 +74,12 @@ static NSString *kDocumentPath = @"/Users/cuizhengqing/Desktop/city.json";
             @autoreleasepool {
                 //构造新省列表
                 YPProvince *newProvince = [YPProvince new];
+#if MATCH
+                newProvince.ID = province.code.integerValue;
+#else
                 newProvince.ID = province.code;
+#endif
+                
                 newProvince.n = province.name;
                 NSPredicate *cityP = [NSPredicate predicateWithFormat:@"superCode == %@",province.code];
                 NSArray <AddressModel *> *cityList = [addressList filteredArrayUsingPredicate:cityP];
@@ -84,7 +89,12 @@ static NSString *kDocumentPath = @"/Users/cuizhengqing/Desktop/city.json";
                     for (AddressModel *city in cityList) {
                         //构造新市列表
                         YPCity *newCity = [YPCity new];
+#if MATCH
+                        newCity.ID = city.code.integerValue;
+#else
                         newCity.ID = city.code;
+#endif
+                        
                         newCity.n = city.name;
                         NSPredicate *districtP = [NSPredicate predicateWithFormat:@"superCode == %@",city.code];
                         NSArray <AddressModel *> *districtList = [addressList filteredArrayUsingPredicate:districtP];
@@ -93,7 +103,11 @@ static NSString *kDocumentPath = @"/Users/cuizhengqing/Desktop/city.json";
                             for (AddressModel *district in districtList) {
                                 //构造新区列表
                                 YPDistrict *newDistrict = [YPDistrict new];
+#if MATCH
+                                newDistrict.ID = district.code.integerValue;
+#else
                                 newDistrict.ID = district.code;
+#endif
                                 newDistrict.n = district.name;
                                 [newDistrictList addObject:newDistrict];
                             }

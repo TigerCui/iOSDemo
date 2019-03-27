@@ -14,6 +14,28 @@
 		0179211B224B26FB004C5BE8 /* YPDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = 01792118224B26FB004C5BE8 /* YPDistrict.m */; };
 		01792120224B47A4004C5BE8 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179211F224B47A4004C5BE8 /* NSObject+Extension.m */; };
 		01792122224B48A3004C5BE8 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179210D224B15C9004C5BE8 /* AddressModel.m */; };
+		01792129224B6794004C5BE8 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179210D224B15C9004C5BE8 /* AddressModel.m */; };
+		0179212A224B6794004C5BE8 /* YPCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 01792116224B26FB004C5BE8 /* YPCity.m */; };
+		0179212B224B6794004C5BE8 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 01792111224B1F4C004C5BE8 /* NSString+Extension.m */; };
+		0179212C224B6794004C5BE8 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179211F224B47A4004C5BE8 /* NSObject+Extension.m */; };
+		0179212D224B6794004C5BE8 /* YPProvince.m in Sources */ = {isa = PBXBuildFile; fileRef = 01792114224B26FB004C5BE8 /* YPProvince.m */; };
+		0179212E224B6794004C5BE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB78B8014BC7D4400845894 /* main.m */; };
+		0179212F224B6794004C5BE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB78B8414BC7D4400845894 /* AppDelegate.m */; };
+		01792130224B6794004C5BE8 /* YPDistrict.m in Sources */ = {isa = PBXBuildFile; fileRef = 01792118224B26FB004C5BE8 /* YPDistrict.m */; };
+		01792131224B6794004C5BE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB78B8714BC7D4400845894 /* ViewController.m */; };
+		01792133224B6794004C5BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B7614BC7D4400845894 /* Foundation.framework */; };
+		01792134224B6794004C5BE8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC08C82081C51C0030BF62 /* CoreData.framework */; };
+		01792135224B6794004C5BE8 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9798CC14BC83C1006E5AC2 /* libiconv.dylib */; };
+		01792136224B6794004C5BE8 /* libDHxlsReaderIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B9A14BC7D9700845894 /* libDHxlsReaderIOS.a */; };
+		01792137224B6794004C5BE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B7414BC7D4400845894 /* UIKit.framework */; };
+		01792138224B6794004C5BE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B7814BC7D4400845894 /* CoreGraphics.framework */; };
+		01792139224B6794004C5BE8 /* libPods-TestDHlibxls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292083E99AA70B0A42F3BA7 /* libPods-TestDHlibxls.a */; };
+		0179213B224B6794004C5BE8 /* 省市区.xls in Resources */ = {isa = PBXBuildFile; fileRef = 01792108224B1536004C5BE8 /* 省市区.xls */; };
+		0179213C224B6794004C5BE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEB78B7D14BC7D4400845894 /* InfoPlist.strings */; };
+		0179213D224B6794004C5BE8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB78B8914BC7D4400845894 /* ViewController.xib */; };
+		0179213E224B6794004C5BE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE97994514BCD72E006E5AC2 /* Icon.png */; };
+		0179213F224B6794004C5BE8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEF79AD316E8E60F00E4B803 /* README.md */; };
+		01792140224B6794004C5BE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA903DB179ABE8F006C2EF2 /* Default-568h@2x.png */; };
 		3DA903DC179ABE8F006C2EF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA903DB179ABE8F006C2EF2 /* Default-568h@2x.png */; };
 		4FFC08C92081C51C0030BF62 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFC08C82081C51C0030BF62 /* CoreData.framework */; };
 		DE9798C814BC8349006E5AC2 /* libDHxlsReaderIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB78B9A14BC7D9700845894 /* libDHxlsReaderIOS.a */; };
@@ -32,6 +54,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		01792126224B6794004C5BE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB78B9514BC7D9600845894 /* DHxlsReaderIOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB78ABE14BB9ABF00845894;
+			remoteInfo = DHxlsReaderIOS;
+		};
 		3DA903E4179AC8B7006C2EF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DEB78B9514BC7D9600845894 /* DHxlsReaderIOS.xcodeproj */;
@@ -56,6 +85,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		01792141224B6794004C5BE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE9798C714BC800C006E5AC2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +119,8 @@
 		01792118224B26FB004C5BE8 /* YPDistrict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPDistrict.m; sourceTree = "<group>"; };
 		0179211E224B47A4004C5BE8 /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
 		0179211F224B47A4004C5BE8 /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		01792144224B6794004C5BE8 /* TestDHlibxls copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestDHlibxls copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01792145224B6795004C5BE8 /* TestDHlibxls copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestDHlibxls copy-Info.plist"; path = "/Users/cuizhengqing/Documents/project/iOSDemo/iOSDemo/ExcelReader/TestDHlibxls copy-Info.plist"; sourceTree = "<absolute>"; };
 		2C1851ED3CDF3EFDBBD004A4 /* Pods-TestDHlibxls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDHlibxls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDHlibxls/Pods-TestDHlibxls.debug.xcconfig"; sourceTree = "<group>"; };
 		3292083E99AA70B0A42F3BA7 /* libPods-TestDHlibxls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDHlibxls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA903DB179ABE8F006C2EF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -105,6 +145,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01792132224B6794004C5BE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01792133224B6794004C5BE8 /* Foundation.framework in Frameworks */,
+				01792134224B6794004C5BE8 /* CoreData.framework in Frameworks */,
+				01792135224B6794004C5BE8 /* libiconv.dylib in Frameworks */,
+				01792136224B6794004C5BE8 /* libDHxlsReaderIOS.a in Frameworks */,
+				01792137224B6794004C5BE8 /* UIKit.framework in Frameworks */,
+				01792138224B6794004C5BE8 /* CoreGraphics.framework in Frameworks */,
+				01792139224B6794004C5BE8 /* libPods-TestDHlibxls.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEB78B6D14BC7D4400845894 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +222,7 @@
 				DEB78B7314BC7D4400845894 /* Frameworks */,
 				DEB78B7114BC7D4400845894 /* Products */,
 				F3755964157F97CD482B4DF6 /* Pods */,
+				01792145224B6795004C5BE8 /* TestDHlibxls copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				DEB78B7014BC7D4400845894 /* TestDHlibxls.app */,
+				01792144224B6794004C5BE8 /* TestDHlibxls copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,6 +294,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		01792124224B6794004C5BE8 /* TestDHlibxls copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01792142224B6794004C5BE8 /* Build configuration list for PBXNativeTarget "TestDHlibxls copy" */;
+			buildPhases = (
+				01792127224B6794004C5BE8 /* [CP] Check Pods Manifest.lock */,
+				01792128224B6794004C5BE8 /* Sources */,
+				01792132224B6794004C5BE8 /* Frameworks */,
+				0179213A224B6794004C5BE8 /* Resources */,
+				01792141224B6794004C5BE8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01792125224B6794004C5BE8 /* PBXTargetDependency */,
+			);
+			name = "TestDHlibxls copy";
+			productName = TestDHlibxls;
+			productReference = 01792144224B6794004C5BE8 /* TestDHlibxls copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DEB78B6F14BC7D4400845894 /* TestDHlibxls */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB78B8E14BC7D4400845894 /* Build configuration list for PBXNativeTarget "TestDHlibxls" */;
@@ -266,6 +342,9 @@
 			attributes = {
 				LastUpgradeCheck = 0440;
 				TargetAttributes = {
+					01792124224B6794004C5BE8 = {
+						DevelopmentTeam = 54698WLEK6;
+					};
 					DEB78B6F14BC7D4400845894 = {
 						DevelopmentTeam = 54698WLEK6;
 					};
@@ -291,6 +370,7 @@
 			projectRoot = "";
 			targets = (
 				DEB78B6F14BC7D4400845894 /* TestDHlibxls */,
+				01792124224B6794004C5BE8 /* TestDHlibxls copy */,
 			);
 		};
 /* End PBXProject section */
@@ -313,6 +393,19 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0179213A224B6794004C5BE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0179213B224B6794004C5BE8 /* 省市区.xls in Resources */,
+				0179213C224B6794004C5BE8 /* InfoPlist.strings in Resources */,
+				0179213D224B6794004C5BE8 /* ViewController.xib in Resources */,
+				0179213E224B6794004C5BE8 /* Icon.png in Resources */,
+				0179213F224B6794004C5BE8 /* README.md in Resources */,
+				01792140224B6794004C5BE8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEB78B6E14BC7D4400845894 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +422,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01792127224B6794004C5BE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestDHlibxls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0442FADF23AD5882C216979D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +461,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01792128224B6794004C5BE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01792129224B6794004C5BE8 /* AddressModel.m in Sources */,
+				0179212A224B6794004C5BE8 /* YPCity.m in Sources */,
+				0179212B224B6794004C5BE8 /* NSString+Extension.m in Sources */,
+				0179212C224B6794004C5BE8 /* NSObject+Extension.m in Sources */,
+				0179212D224B6794004C5BE8 /* YPProvince.m in Sources */,
+				0179212E224B6794004C5BE8 /* main.m in Sources */,
+				0179212F224B6794004C5BE8 /* AppDelegate.m in Sources */,
+				01792130224B6794004C5BE8 /* YPDistrict.m in Sources */,
+				01792131224B6794004C5BE8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DEB78B6C14BC7D4400845894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,6 +496,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		01792125224B6794004C5BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DHxlsReaderIOS;
+			targetProxy = 01792126224B6794004C5BE8 /* PBXContainerItemProxy */;
+		};
 		DEB78BA814BC7E8700845894 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DHxlsReaderIOS;
@@ -396,6 +528,27 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		01792143224B6794004C5BE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1851ED3CDF3EFDBBD004A4 /* Pods-TestDHlibxls.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 54698WLEK6;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestDHlibxls/TestDHlibxls-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"MATCH=1",
+				);
+				INFOPLIST_FILE = "TestDHlibxls copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
 		DEB78B8C14BC7D4400845894 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,6 +591,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01792142224B6794004C5BE8 /* Build configuration list for PBXNativeTarget "TestDHlibxls copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01792143224B6794004C5BE8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		DEB78B6A14BC7D4400845894 /* Build configuration list for PBXProject "TestDHlibxls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
