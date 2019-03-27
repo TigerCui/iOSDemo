@@ -108,12 +108,27 @@ static NSString *kDocumentPath = @"/Users/cuizhengqing/Desktop/city.json";
         }
     }
 
-    NSString *jsonStr = ((NSArray *)[newProvinceList copy]).json;
+    NSString *jsonStr = [self dealNoDistrictWithNewProvinceList:newProvinceList].json;
     
     [self createFile];
     [self writeFileWithContent:jsonStr];
     NSLog(@"");
     
+}
+
+//处理区是空的情况
+- (NSArray *)dealNoDistrictWithNewProvinceList:(NSMutableArray <YPProvince *> *)newProvinceList {
+    for (YPProvince *province in newProvinceList) {
+        for (YPCity *city in province.c) {
+            if (!city.d.count) {
+                YPDistrict *d = [YPDistrict new];
+                d.ID = city.ID;
+                d.n = city.n;
+                city.d = @[d];
+            }
+        }
+    }
+    return [newProvinceList copy];
 }
 
 -(void)createFile{
