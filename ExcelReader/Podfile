@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+project '/Users/cuizhengqing/Documents/project/码云别人项目/ExcelReader/TestDHlibxls.xcodeproj'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+
+target 'TestDHlibxls' do
+    pod 'MJExtension' , '3.0.15'
+end
+

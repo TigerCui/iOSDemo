@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E2E47D223DFED3000AA802 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2E47C223DFED2000AA802 /* BSBacktraceLogger.m */; };
 		01FA04DC223B7926007C96D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA04DB223B7926007C96D5 /* AppDelegate.m */; };
 		01FA04DF223B7926007C96D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA04DE223B7926007C96D5 /* ViewController.m */; };
 		01FA04E2223B7926007C96D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FA04E0223B7926007C96D5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		01FA04EA223B7928007C96D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA04E9223B7928007C96D5 /* main.m */; };
 		01FA04F4223B7928007C96D5 /* GrabCallStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA04F3223B7928007C96D5 /* GrabCallStackTests.m */; };
 		01FA04FF223B7928007C96D5 /* GrabCallStackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA04FE223B7928007C96D5 /* GrabCallStackUITests.m */; };
+		01FA050F223B7CD7007C96D5 /* CZQGrabCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA050E223B7CD7007C96D5 /* CZQGrabCallStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E2E47B223DFED2000AA802 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
+		01E2E47C223DFED2000AA802 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
 		01FA04D7223B7926007C96D5 /* GrabCallStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabCallStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FA04DA223B7926007C96D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01FA04DB223B7926007C96D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		01FA04FA223B7928007C96D5 /* GrabCallStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabCallStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FA04FE223B7928007C96D5 /* GrabCallStackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrabCallStackUITests.m; sourceTree = "<group>"; };
 		01FA0500223B7928007C96D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FA050D223B7CD7007C96D5 /* CZQGrabCallStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZQGrabCallStack.h; sourceTree = "<group>"; };
+		01FA050E223B7CD7007C96D5 /* CZQGrabCallStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZQGrabCallStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		01FA04D9223B7926007C96D5 /* GrabCallStack */ = {
 			isa = PBXGroup;
 			children = (
+				01FA050C223B7990007C96D5 /* CZQGrabCallStack */,
 				01FA04DA223B7926007C96D5 /* AppDelegate.h */,
 				01FA04DB223B7926007C96D5 /* AppDelegate.m */,
 				01FA04DD223B7926007C96D5 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				01FA0500223B7928007C96D5 /* Info.plist */,
 			);
 			path = GrabCallStackUITests;
+			sourceTree = "<group>";
+		};
+		01FA050C223B7990007C96D5 /* CZQGrabCallStack */ = {
+			isa = PBXGroup;
+			children = (
+				01E2E47B223DFED2000AA802 /* BSBacktraceLogger.h */,
+				01E2E47C223DFED2000AA802 /* BSBacktraceLogger.m */,
+				01FA050D223B7CD7007C96D5 /* CZQGrabCallStack.h */,
+				01FA050E223B7CD7007C96D5 /* CZQGrabCallStack.m */,
+			);
+			path = CZQGrabCallStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FA04DF223B7926007C96D5 /* ViewController.m in Sources */,
+				01FA050F223B7CD7007C96D5 /* CZQGrabCallStack.m in Sources */,
 				01FA04EA223B7928007C96D5 /* main.m in Sources */,
 				01FA04DC223B7926007C96D5 /* AppDelegate.m in Sources */,
+				01E2E47D223DFED3000AA802 /* BSBacktraceLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

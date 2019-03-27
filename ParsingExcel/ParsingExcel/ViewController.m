@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  GrabCallStack
+//  ParsingExcel
 //
-//  Created by 崔正清 on 2019/3/15.
+//  Created by 崔正清 on 2019/3/26.
 //  Copyright © 2019 cuizhengqing. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "CZQGrabCallStack.h"
+#import "DHxlsReader.h"
 
 @interface ViewController ()
 
@@ -17,8 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [CZQGrabCallStack stop];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    DHxlsReader *reader = [DHxlsReader xlsReaderWithPath:@""];
+    
+    // Do any additional setup after loading the view.
 }
 
 
