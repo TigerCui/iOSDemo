@@ -38,7 +38,7 @@ static NSString *kDocumentPath = @"/Users/cuizhengqing/Desktop/city.json";
 {
     [super viewDidLoad];
 
-	NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"省市区.xls"];
+	NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"歌莉娅省市区.xls"];
 	DHxlsReader *reader = [DHxlsReader xlsReaderWithPath:path];
 	assert(reader);
     
