@@ -16,6 +16,8 @@
 		01051D7724CD293000C5E6A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01051D7624CD293000C5E6A1 /* main.m */; };
 		01051D8124CD293000C5E6A1 /* UnderlyingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01051D8024CD293000C5E6A1 /* UnderlyingTests.m */; };
 		01051D8C24CD293000C5E6A1 /* UnderlyingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01051D8B24CD293000C5E6A1 /* UnderlyingUITests.m */; };
+		01051D9C24CD2C6800C5E6A1 /* CZQMemoryManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 01051D9B24CD2C6800C5E6A1 /* CZQMemoryManagement.m */; };
+		01051D9E24CD8B4D00C5E6A1 /* main-arm64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01051D9D24CD8B4D00C5E6A1 /* main-arm64.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		01051D8724CD293000C5E6A1 /* UnderlyingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderlyingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01051D8B24CD293000C5E6A1 /* UnderlyingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderlyingUITests.m; sourceTree = "<group>"; };
 		01051D8D24CD293000C5E6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01051D9A24CD2C6800C5E6A1 /* CZQMemoryManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZQMemoryManagement.h; sourceTree = "<group>"; };
+		01051D9B24CD2C6800C5E6A1 /* CZQMemoryManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZQMemoryManagement.m; sourceTree = "<group>"; };
+		01051D9D24CD8B4D00C5E6A1 /* main-arm64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "main-arm64.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 		01051D6324CD292F00C5E6A1 /* Underlying */ = {
 			isa = PBXGroup;
 			children = (
+				01051D9924CD2BC100C5E6A1 /* MemoryManagement */,
 				01051D6424CD292F00C5E6A1 /* AppDelegate.h */,
 				01051D6524CD292F00C5E6A1 /* AppDelegate.m */,
 				01051D6724CD292F00C5E6A1 /* SceneDelegate.h */,
@@ -114,6 +120,7 @@
 				01051D7024CD293000C5E6A1 /* Assets.xcassets */,
 				01051D7224CD293000C5E6A1 /* LaunchScreen.storyboard */,
 				01051D7524CD293000C5E6A1 /* Info.plist */,
+				01051D9D24CD8B4D00C5E6A1 /* main-arm64.cpp */,
 				01051D7624CD293000C5E6A1 /* main.m */,
 			);
 			path = Underlying;
@@ -135,6 +142,15 @@
 				01051D8D24CD293000C5E6A1 /* Info.plist */,
 			);
 			path = UnderlyingUITests;
+			sourceTree = "<group>";
+		};
+		01051D9924CD2BC100C5E6A1 /* MemoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				01051D9A24CD2C6800C5E6A1 /* CZQMemoryManagement.h */,
+				01051D9B24CD2C6800C5E6A1 /* CZQMemoryManagement.m */,
+			);
+			path = MemoryManagement;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01051D9C24CD2C6800C5E6A1 /* CZQMemoryManagement.m in Sources */,
 				01051D6C24CD292F00C5E6A1 /* ViewController.m in Sources */,
 				01051D6624CD292F00C5E6A1 /* AppDelegate.m in Sources */,
 				01051D7724CD293000C5E6A1 /* main.m in Sources */,
 				01051D6924CD292F00C5E6A1 /* SceneDelegate.m in Sources */,
+				01051D9E24CD8B4D00C5E6A1 /* main-arm64.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

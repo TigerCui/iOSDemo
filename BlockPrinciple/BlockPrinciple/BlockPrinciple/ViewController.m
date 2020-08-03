@@ -1,13 +1,12 @@
 //
 //  ViewController.m
-//  Underlying
+//  BlockPrinciple
 //
-//  Created by 崔正清 on 2020/7/26.
+//  Created by 崔正清 on 2020/8/3.
 //  Copyright © 2020 czq. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "CZQMemoryManagement.h"
 
 @interface ViewController ()
 
@@ -17,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CZQMemoryManagement *memoryManagement = [CZQMemoryManagement new];
-    [memoryManagement taggedPointeTest2];
+    // Do any additional setup after loading the view.
 }
 
 
