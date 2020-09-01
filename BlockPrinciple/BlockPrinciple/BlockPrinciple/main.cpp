@@ -106,7 +106,8 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_0d14b5_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"Hello, World!",13};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_742451_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%@",2};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_742451_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"%@",2};
 
 
 
@@ -71857,6 +71858,7 @@ struct AppDelegate_IMPL {
 
 
 
+
 struct __main_block_impl_0 {
   struct __block_impl impl;
   struct __main_block_desc_0* Desc;
@@ -71868,23 +71870,23 @@ struct __main_block_impl_0 {
   }
 };
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_0d14b5_mi_0);
-        }
+}
 
 static struct __main_block_desc_0 {
   size_t reserved;
   size_t Block_size;
 } __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
-
-
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+        appDelegateClassName = NSStringFromClass(((Class (*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("AppDelegate"), sel_registerName("class")));
+
 
         void(*block)(void) = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA));
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_742451_mi_0,block);
+        dispatch_async(dispatch_get_global_queue(0, 0), block);
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_zr_p1cnc5b14b7bfgk7vs7_x6fh0000gp_T_main_742451_mi_1,block);
 
-        ((void (*)(__block_impl *))((__block_impl *)block)->FuncPtr)((__block_impl *)block);
     }
     return UIApplicationMain(argc, argv, __null, appDelegateClassName);
 }

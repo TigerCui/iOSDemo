@@ -13,10 +13,9 @@
 		0106B37724D7BFA9005504CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106B37524D7BFA9005504CB /* Main.storyboard */; };
 		0106B37924D7BFAA005504CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106B37824D7BFAA005504CB /* Assets.xcassets */; };
 		0106B37C24D7BFAA005504CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106B37A24D7BFAA005504CB /* LaunchScreen.storyboard */; };
-		0106B37F24D7BFAA005504CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106B37E24D7BFAA005504CB /* main.m */; };
+		0106B37F24D7BFAA005504CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106B37E24D7BFAA005504CB /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0106B38924D7BFAA005504CB /* BlockPrincipleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106B38824D7BFAA005504CB /* BlockPrincipleTests.m */; };
 		0106B39424D7BFAA005504CB /* BlockPrincipleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106B39324D7BFAA005504CB /* BlockPrincipleUITests.m */; };
-		0106B3A224D7C007005504CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0106B3A124D7C006005504CB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,7 +272,6 @@
 				0106B37424D7BFA9005504CB /* ViewController.m in Sources */,
 				0106B36E24D7BFA9005504CB /* AppDelegate.m in Sources */,
 				0106B37F24D7BFAA005504CB /* main.m in Sources */,
-				0106B3A224D7C007005504CB /* main.cpp in Sources */,
 				0106B37124D7BFA9005504CB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

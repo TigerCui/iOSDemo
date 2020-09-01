@@ -1,0 +1,6 @@
+# platform :ios, '7.0'
+use_frameworks!
+target 'ObjcMsgSendHook' do
+	pod 'FMDB'
+  pod 'ReactiveCocoa', '=2.3'
+end
